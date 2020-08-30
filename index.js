@@ -1,3 +1,3 @@
 function superbowlWin(array){
-  return array.find(obj => obj.result === 'W' );
+  return  win = array.find(obj => obj.result === 'W' );
 }
