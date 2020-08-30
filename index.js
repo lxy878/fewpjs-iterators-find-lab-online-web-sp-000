@@ -4,5 +4,5 @@ function testFunc() {
   return "hi"
 }
 function superbowlWin(array){
-  return array.find(obj => obj.result == 'W' );
+  return array.find(obj => obj.result === 'W' );
 }
