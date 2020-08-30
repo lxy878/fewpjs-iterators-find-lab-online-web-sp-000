@@ -64,4 +64,4 @@ const record = [
   { year: "1960", result: "N/A"}
 ]
 
-console.log(superbowlWin(record))
+console.log(superbowlWin(record));
