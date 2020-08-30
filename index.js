@@ -1,6 +1,6 @@
 function superbowlWin(array){
   win = array.find(obj => obj.result === 'W' );
-  return win
+  if (win) return win.year
 }
 const record = [
   { year: "2018", result: "N/A"},
